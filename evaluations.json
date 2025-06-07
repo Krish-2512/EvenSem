@@ -1,0 +1,34 @@
+[
+  {
+    "username": "Dragon",
+    "filename": "ab-cv.pdf",
+    "relevance_score": 67.65967011451721,
+    "feedback": "The CV lacks some required skills such as python. The experience section matches the job's requirements.",
+    "job_title": "Ml",
+    "job_id": 0
+  },
+  {
+    "username": "Dragon",
+    "filename": "ab-cv.pdf",
+    "relevance_score": 63.79246413707733,
+    "feedback": "The CV lacks some required skills such as python, javascript , c++. The experience section matches the job's requirements.",
+    "job_title": "sde",
+    "job_id": 1
+  },
+  {
+    "username": "sarahkhan",
+    "filename": "ab-cv.pdf",
+    "relevance_score": 63.79246413707733,
+    "feedback": "The CV lacks some required skills such as python, javascript , c++. The experience section matches the job's requirements.",
+    "job_title": "sde",
+    "job_id": 1
+  },
+  {
+    "username": "priya",
+    "filename": "Margaret-Wangari-Waithaka-CV.pdf",
+    "relevance_score": 63.79246413707733,
+    "feedback": "The CV lacks some required skills such as python, javascript , c++. The experience section matches the job's requirements.",
+    "job_title": "sde",
+    "job_id": 1
+  }
+]

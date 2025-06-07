@@ -1,0 +1,57 @@
+[
+  {
+    "username": "sarahkhan",
+    "hashed_password": "$2b$12$yi7CHy79TblsEUe1kUfw8uquWokCZr3ae9r/NwPuVOHZGQjq1//J6",
+    "role": "job_seeker"
+  },
+  {
+    "username": "Dragon",
+    "hashed_password": "$2b$12$Sv4Q26V7Gy1Zg2qLddlH7OyYgYMT1K9Mu.Pj39qDQuZh6LD.qeTTu",
+    "role": "job_seeker"
+  },
+  {
+    "username": "Naruto",
+    "hashed_password": "$2b$12$TInx7lB0ZXMj2K9bezFM1.pyfEe3LAGafC2Hj3kv6A9T8dmlu8.wS",
+    "role": "recruiter"
+  },
+  {
+    "username": "bayblade",
+    "hashed_password": "$2b$12$vo1.26LhxTCZybothLOdH.mXZA4MXYeEbsoLrb64DavW2xpcnNtaK",
+    "role": "admin"
+  },
+  {
+    "username": "farhan",
+    "hashed_password": "$2b$12$m8fkPR3qzeD9Bgd/pF0k3OA1pvTuLtFW6RMxFP8Db8qbG2uWmF0/a",
+    "role": "recruiter"
+  },
+  {
+    "username": "krish",
+    "hashed_password": "$2b$12$H9ph5CWhwHbee.kmGRx/feFQHwK22OXKD6.tl2VTvDlQpMws6P5be",
+    "role": "job_seeker"
+  },
+  {
+    "username": "Krish",
+    "hashed_password": "$2b$12$nvEfXm/L6v2aA0dEsK03i.GHi4ysd4hZCHutoegVtxpryrzgJftdO",
+    "role": "job_seeker"
+  },
+  {
+    "username": "raj",
+    "hashed_password": "$2b$12$NH1/irawm75FGguQ.NX0mOG8R9QlWmOTL3rRtNbtm.XmVwgB1xDTu",
+    "role": "job_seeker"
+  },
+  {
+    "username": "pickachu",
+    "hashed_password": "$2b$12$/YMnw6rzMm0FMYM/tRfJbe9kEutmmO6zMB.lFvzvt8iOUB2u.CggC",
+    "role": "job_seeker"
+  },
+  {
+    "username": "Matha",
+    "hashed_password": "$2b$12$K.xyQfqyM0LqaZAOfyw8z.bCMtQ9GyzdsXmNCbFI.XV7bvsRVUJra",
+    "role": "job_seeker"
+  },
+  {
+    "username": "priya",
+    "hashed_password": "$2b$12$jHrzzji6LyVbamV.62iNou/M32II5fUcAvHiFgxgnT.vxB5dnfOPC",
+    "role": "job_seeker"
+  }
+]
