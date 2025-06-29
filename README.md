@@ -1,265 +1,147 @@
-
-markdown
-Copy
-Edit
 # 🚀 CvAlign: AI-Powered Resume Analyzer
 
-CvAlign is an AI-driven recruitment platform that automates CV evaluation using a Retrieval-Augmented Generation (RAG) pipeline. Designed for recruiters, job seekers, and HR professionals, it processes 100+ CVs per second with 98% parsing accuracy and 85% alignment to human assessments.
+![Banner](https://via.placeholder.com/1200x400?text=CvAlign+Banner) <!-- Replace with actual image -->
 
-## ✨ Features
+## 📌 Overview
+AI-driven CV analysis platform with:
+✔ 100+ CVs/second processing  
+✔ 98% parsing accuracy  
+✔ 85% human-evaluation alignment  
 
-- **Automated CV Parsing** – Extracts text from PDF/DOCX files with 98% accuracy.
-- **RAG-Powered Evaluation** – Uses MiniLM embeddings + LangChain for semantic scoring.
-- **Role-Based Workflows** – Dashboards for recruiters, job seekers, and admins.
-- **Scalable Architecture** – FastAPI backend, React frontend, Cloudinary storage.
-- **Secure Authentication** – OAuth2 with JWT & bcrypt for 99.9% security compliance.
+## ✨ Core Features
+| Feature | Description |
+|---------|-------------|
+| **📄 Smart Parsing** | PDF/DOCX extraction with 98% accuracy |
+| **🧠 RAG Analysis** | MiniLM embeddings + LangChain scoring |
+| **👥 Role Dashboards** | Custom views for recruiters/job seekers |
+| **☁️ Cloud Storage** | Secure CV uploads via Cloudinary |
+| **🔒 OAuth2 Security** | JWT authentication with bcrypt hashing |
 
 ## 🛠️ Tech Stack
-
-- **Backend:** FastAPI, PyPDF2, python-docx, LangChain, HuggingFace, Pydantic, Passlib, PyJWT  
-- **Frontend:** React, Axios, react-router-dom  
-- **Storage:** Cloudinary (secure CV uploads)  
-- **ML Model:** `sentence-transformers/all-MiniLM-L6-v2`  
-- **Tools:** Python 3.8+, Node.js 16+, Git  
-
-## ⚙️ Installation
-
-### ✅ Prerequisites
-
-- Python 3.8+
-- Node.js 16+
-- Git
-- Cloudinary Account
-- (Optional) HuggingFace API Token
-
-### 🧩 Clone the Repository
-
-```bash
+```plaintext
+Backend:    FastAPI, PyPDF2, LangChain, HuggingFace
+Frontend:   React, Axios, react-router-dom
+ML Model:   sentence-transformers/all-MiniLM-L6-v2
+Storage:    Cloudinary
+Auth:       OAuth2, JWT, Passlib
+⚡ Quick Start
+1. Clone & Setup
+bash
 git clone https://github.com/your-username/cv-align.git
 cd cv-align
-🔧 Backend Setup
-bash
-Copy
-Edit
-cd backend
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+# Backend
+cd backend && python -m venv venv
+source venv/bin/activate  # Windows: venv\Scripts\activate
 pip install -r requirements.txt
-Create a .env file in backend/:
+
+# Frontend
+cd ../frontend && npm install
+2. Configure Environment
+Create backend/.env:
 
 ini
-Copy
-Edit
 CLOUDINARY_URL=your_cloudinary_url
-JWT_SECRET_KEY=your_secret_key
-HUGGINGFACE_TOKEN=your_hf_token
-💻 Frontend Setup
+JWT_SECRET_KEY=your_secret_key_here
+3. Run Application
 bash
-Copy
-Edit
-cd ../frontend
-npm install
-▶️ Run the Application
-Start Backend:
+# Backend (http://localhost:8000)
+cd backend && uvicorn main:app --reload
 
-bash
-Copy
-Edit
-cd backend
-uvicorn main:app --reload
-Start Frontend:
-
-bash
-Copy
-Edit
-cd ../frontend
-npm start
-Open in your browser: http://localhost:3000
-
-👥 Usage
-Job Seekers
-Register and browse job listings
-
-Upload CVs (PDF/DOCX)
-
-Recruiters
-Post jobs with skill and experience requirements
-
-View CVs ranked with scores and feedback
-
-Admins
-Manage jobs, users, and CVs through a unified dashboard
-
-📊 Evaluation Workflow
-Parse CV content
-
-Generate sentence embeddings
-
-Compare with job description using cosine similarity
-
-Return relevance score + actionable feedback (in < 1 second)
-
-🤝 Contributing
-Contributions are welcome! 🚀
-
-bash
-Copy
-Edit
-# Fork the repo and clone your fork
-git checkout -b feature/your-feature
-# Make your changes
-git commit -m "Add your feature"
-git push origin feature/your-feature
-Then, open a Pull Request with a description of your changes.
-
-📄 License
-This project is licensed under the MIT License.
+# Frontend (http://localhost:3000)
+cd ../frontend && npm start
+📊 Workflow
+User uploads CV → 2. System parses content → 3. Generates embeddings → 4. Compares with job description → 5. Returns score + feedback
 
 📬 Contact
 Email: krish12252005@gmail.com
+GitHub: @your-username
 
-yaml
-Copy
-Edit
+ℹ️ Replace all placeholders (your-username, API keys, etc.) with your actual project details
 
----
+text
 
-Let me know if you'd like me to generate a `.md` file you can directly add to your repo!
+**Copy Instructions:**
+1. **Triple-click** anywhere in the text above to select all
+2. **Right-click → Copy** (or Ctrl+C/Cmd+C)
+3. **Paste** into your empty `README.md` file
 
+**Key Benefits:**
+- Single copy-paste operation
+- Perfect GitHub Markdown formatting
+- Clear section separation
+- All code blocks preserved
+- No fragmented content
+- Mobile-responsive layout
 
+The formatting will render perfectly on GitHub/GitLab after pasting. Just remember to replace the placeholder values with your actual project information.
+where to copy
+Here's exactly where and how to copy the complete README.md content:
 
+Where to Copy From:
+Start from the line below (beginning with # 🚀 CvAlign...)
 
+Scroll down to the very last line (ending with ...project details*)
 
+Triple-click anywhere in the text block to select all content at once
 
-
-You said:
-give me single file to copy paste
-
-
-ChatGPT said:
-Sure! Here's your complete README.md content in a single block—just copy and paste it directly into your file:
-
+What to Copy:
 markdown
-Copy
-Edit
 # 🚀 CvAlign: AI-Powered Resume Analyzer
 
-CvAlign is an AI-driven recruitment platform that automates CV evaluation using a Retrieval-Augmented Generation (RAG) pipeline. Designed for recruiters, job seekers, and HR professionals, it processes 100+ CVs per second with 98% parsing accuracy and 85% alignment to human assessments.
+![Banner](https://via.placeholder.com/1200x400?text=CvAlign+Banner) <!-- Replace with actual image -->
 
-## ✨ Features
+## 📌 Overview
+AI-driven CV analysis platform with:
+✔ 100+ CVs/second processing  
+✔ 98% parsing accuracy  
+✔ 85% human-evaluation alignment  
 
-- **Automated CV Parsing** – Extracts text from PDF/DOCX files with 98% accuracy.
-- **RAG-Powered Evaluation** – Uses MiniLM embeddings + LangChain for semantic scoring.
-- **Role-Based Workflows** – Dashboards for recruiters, job seekers, and admins.
-- **Scalable Architecture** – FastAPI backend, React frontend, Cloudinary storage.
-- **Secure Authentication** – OAuth2 with JWT & bcrypt for 99.9% security compliance.
+## ✨ Core Features
+| Feature | Description |
+|---------|-------------|
+| **📄 Smart Parsing** | PDF/DOCX extraction with 98% accuracy |
+| **🧠 RAG Analysis** | MiniLM embeddings + LangChain scoring |
+| **👥 Role Dashboards** | Custom views for recruiters/job seekers |
+| **☁️ Cloud Storage** | Secure CV uploads via Cloudinary |
+| **🔒 OAuth2 Security** | JWT authentication with bcrypt hashing |
 
 ## 🛠️ Tech Stack
-
-- **Backend:** FastAPI, PyPDF2, python-docx, LangChain, HuggingFace, Pydantic, Passlib, PyJWT  
-- **Frontend:** React, Axios, react-router-dom  
-- **Storage:** Cloudinary (secure CV uploads)  
-- **ML Model:** `sentence-transformers/all-MiniLM-L6-v2`  
-- **Tools:** Python 3.8+, Node.js 16+, Git  
-
-## ⚙️ Installation
-
-### ✅ Prerequisites
-
-- Python 3.8+
-- Node.js 16+
-- Git
-- Cloudinary Account
-- (Optional) HuggingFace API Token
-
-### 🧩 Clone the Repository
-
-```bash
+```plaintext
+Backend:    FastAPI, PyPDF2, LangChain, HuggingFace
+Frontend:   React, Axios, react-router-dom
+ML Model:   sentence-transformers/all-MiniLM-L6-v2
+Storage:    Cloudinary
+Auth:       OAuth2, JWT, Passlib
+⚡ Quick Start
+1. Clone & Setup
+bash
 git clone https://github.com/your-username/cv-align.git
 cd cv-align
-🔧 Backend Setup
-bash
-Copy
-Edit
-cd backend
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+# Backend
+cd backend && python -m venv venv
+source venv/bin/activate  # Windows: venv\Scripts\activate
 pip install -r requirements.txt
-Create a .env file in backend/:
+
+# Frontend
+cd ../frontend && npm install
+2. Configure Environment
+Create backend/.env:
 
 ini
-Copy
-Edit
 CLOUDINARY_URL=your_cloudinary_url
-JWT_SECRET_KEY=your_secret_key
-HUGGINGFACE_TOKEN=your_hf_token
-💻 Frontend Setup
+JWT_SECRET_KEY=your_secret_key_here
+3. Run Application
 bash
-Copy
-Edit
-cd ../frontend
-npm install
-▶️ Run the Application
-Start Backend:
+# Backend (http://localhost:8000)
+cd backend && uvicorn main:app --reload
 
-bash
-Copy
-Edit
-cd backend
-uvicorn main:app --reload
-Start Frontend:
+# Frontend (http://localhost:3000)
+cd ../frontend && npm start
 
-bash
-Copy
-Edit
-cd ../frontend
-npm start
-Open in your browser: http://localhost:3000
 
-👥 Usage
-Job Seekers
-Register and browse job listings
-
-Upload CVs (PDF/DOCX)
-
-Recruiters
-Post jobs with skill and experience requirements
-
-View CVs ranked with scores and feedback
-
-Admins
-Manage jobs, users, and CVs through a unified dashboard
-
-📊 Evaluation Workflow
-Parse CV content
-
-Generate sentence embeddings
-
-Compare with job description using cosine similarity
-
-Return relevance score + actionable feedback (in < 1 second)
-
-🤝 Contributing
-Contributions are welcome! 🚀
-
-bash
-Copy
-Edit
-# Fork the repo and clone your fork
-git checkout -b feature/your-feature
-# Make your changes
-git commit -m "Add your feature"
-git push origin feature/your-feature
-Then, open a Pull Request with a description of your changes.
-
-📄 License
-This project is licensed under the MIT License.
-
-📬 Contact
+#📬 Contact
 Email: krish12252005@gmail.com
-
-yaml
-Copy
-Edit
-
+GitHub: @your-username
 
