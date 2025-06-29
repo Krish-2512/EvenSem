@@ -26,7 +26,8 @@ Auth:       OAuth2, JWT, Passlib
 ⚡ Quick Start
 1. Clone & Setup
 bash
-git clone https://github.com/your-username/cv-align.git
+git clone https://github.com/Krish-2512/EvenSem.git
+
 cd cv-align
 
 ## Backend
