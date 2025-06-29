@@ -1,6 +1,6 @@
 # 🚀 CvAlign: AI-Powered Resume Analyzer
 
-![Banner](https://via.placeholder.com/1200x400?text=CvAlign+Banner) <!-- Replace with actual image -->
+<!-- Replace with actual image -->
 
 ## 📌 Overview
 AI-driven CV analysis platform with:
@@ -67,11 +67,12 @@ Generate sentence embeddings
 Compare with job description using cosine similarity
 Return relevance score + actionable feedback (in < 1 second)
 
-
+## workflow
+![Banner](https://via.placeholder.com/1200x400?text=CvAlign+Banner) 
 
 ## 📬 Contact
 Email: krish12252005@gmail.com
-GitHub: @your-username
+GitHub: Krish-2512
 
 
 
