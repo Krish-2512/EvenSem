@@ -24,41 +24,56 @@ ML Model:   sentence-transformers/all-MiniLM-L6-v2
 Storage:    Cloudinary
 Auth:       OAuth2, JWT, Passlib
 ### ⚡ Quick Start
-1. Clone & Setup
-bash
+#### Clone & Setup
+git bash
 git clone https://github.com/Krish-2512/EvenSem.git
 
 cd cv-align
 
 ## Backend
 cd backend
+
 python -m venv venv
+
 source venv/bin/activate  # On Windows: venv\Scripts\activate
+
 pip install -r requirements.txt
 
 ### .end setup
 create a .env in backend folder
+
 CLOUDINARY_URL=your_cloudinary_url
+
 JWT_SECRET_KEY=your_secret_key
+
 HUGGINGFACE_TOKEN=your_hf_token
 
 
 ## Frontend
 cd ../frontend
+
 npm install
+
 ## Run the application
 ### start backend 
 cd backend
+
 uvicorn main:app --reload
+
 ### strat frontend
 cd ../frontend
+
 npm start
 
 ##  Backend (http://localhost:8000)
-cd backend && uvicorn main:app --reload
+cd backend 
+
+uvicorn main:app --reload
 
 ## Frontend (http://localhost:3000)
-cd ../frontend && npm start
+cd ../frontend 
+
+npm start
 
 ## 👥 Usage
 🔹 Job Seekers
