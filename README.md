@@ -52,12 +52,10 @@ cd ../frontend && npm start
 ## 👥 Usage
 🔹 Job Seekers
 Register and browse job listings
-
 Upload CVs (PDF/DOCX)
 
 ### 🔹 Recruiters
 Post jobs with skill and experience requirements
-
 View CVs ranked with scores and feedback
 
 ### 🔹 Admins
@@ -65,11 +63,8 @@ Manage jobs, users, and CVs through a unified dashboard
 
 ## 📊 Evaluation Workflow
 Parse CV content
-
 Generate sentence embeddings
-
 Compare with job description using cosine similarity
-
 Return relevance score + actionable feedback (in < 1 second)
 
 
@@ -78,6 +73,5 @@ Return relevance score + actionable feedback (in < 1 second)
 Email: krish12252005@gmail.com
 GitHub: @your-username
 
-## ℹ️ Replace all placeholders (your-username, API keys, etc.) with your actual project details
 
 
